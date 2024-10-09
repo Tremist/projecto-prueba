@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
 body {
-  background-color: #813ad1;
-  color: aliceblue;
+  background-color: #433878;
+  color: #ffe1ff;
 }
 
 * {
@@ -10,14 +12,24 @@ body {
 }
 
 header {
-  background-color: #9f7eee;
+  background-color: #7e60bf;
 }
 footer {
-  background-color: #9f7eee;
+  background-color: #7e60bf;
 }
 
 a:-webkit-any-link {
-  color: aliceblue;
+  color: #ffe1ff;
   cursor: pointer;
   font-style: italic;
+}
+
+.fuentenunito {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
 }
