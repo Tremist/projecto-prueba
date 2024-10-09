@@ -1,5 +1,23 @@
-* {
-  background-color: blue;
+body {
+  background-color: #813ad1;
   color: aliceblue;
 }
 
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #9f7eee;
+}
+footer {
+  background-color: #9f7eee;
+}
+
+a:-webkit-any-link {
+  color: aliceblue;
+  cursor: pointer;
+  font-style: italic;
+}
